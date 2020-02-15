@@ -1,8 +1,16 @@
 # Redirect domain aliases to primary domain
 https://blog.freeguide-berlin.de/* https://freeguide-berlin.de/:splat 301!
+http://blog.freeguide-berlin.de/* https://freeguide-berlin.de/:splat 301!
+
+https://www.freeguideberlin.de/* https://freeguide-berlin.de/:splat 301!
+http://www.freeguideberlin.de/* https://freeguide-berlin.de/:splat 301!
+
+https://freeguideberlin.de/* https://freeguide-berlin.de/:splat 301!
+http://freeguideberlin.de/* https://freeguide-berlin.de/:splat 301!
 
 # Redirect default Netlify subdomain to primary domain
 https://cranky-einstein-77d802.netlify.com/* https://freeguide-berlin.de/:splat 301!
+http://cranky-einstein-77d802.netlify.com/* https://freeguide-berlin.de/:splat 301!
 
 # Redirect to HTTPS
 http://freeguide-berlin.de/* https://freeguide-berlin.de/:splat 301!
